@@ -9,15 +9,4 @@ public class Circulo implements Figura{
         this.a = a;
     }
 
-    @Override
-    public double getArea() {
-        // TODO Auto-generated method stub
-        return 0;
-    }
-
-    @Override
-    public double getPerimetro() {
-        // TODO Auto-generated method stub
-        return 0;
-    }    
 }

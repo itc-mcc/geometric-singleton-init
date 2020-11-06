@@ -8,15 +8,4 @@ public class Elipse extends Circulo {
         this.b = b;
     }
 
-    @Override
-    public double getArea() {
-        // TODO Auto-generated method stub
-        return 0;
-    }
-
-    @Override
-    public double getPerimetro() {
-        // TODO Auto-generated method stub
-        return 0;
-    }    
 }
