@@ -36,7 +36,7 @@ public class AppTest {
     @Test public void testRectangulo() {
         CalculadoraGeometrica cg = new CalculadoraGRectangulo();
 
-        assertTrue(cg.calcularArea(7, 2)==7 * 2);
+        assertTrue(cg.calcularArea(7, 2) == 7 * 2);
         assertTrue(cg.calcularPerimetro(7, 2) == 2 * (7 + 2));
     }
 }
