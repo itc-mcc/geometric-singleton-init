@@ -16,21 +16,21 @@ public class AppTest {
     }
 
     @Test public void testElipse() {
-        CalculadoraGeometrica cg = new CalculadoraGElipse.getInstance();
+        CalculadoraGeometrica cg = CalculadoraGElipse.getInstance();
 
         assertTrue(cg.calcularArea(7, 2)==3.1416 * 7 * 2);
         assertTrue(cg.calcularPerimetro(7, 2) == 2 * 3.1416 * Math.sqrt((7*7 + 2*2)/2));
     }
 
     @Test public void testCuadrado() {
-        CalculadoraGeometrica cg = new CalculadoraGCuadrado.getInstance();
+        CalculadoraGeometrica cg = CalculadoraGCuadrado.getInstance();
 
         assertTrue(cg.calcularArea(7, 0)==7 * 7);
         assertTrue(cg.calcularPerimetro(7, 0) == 7 * 4);
     }
 
     @Test public void testRectangulo() {
-        CalculadoraGeometrica cg = new CalculadoraGRectangulo.getInstance();
+        CalculadoraGeometrica cg = CalculadoraGRectangulo.getInstance();
 
         assertTrue(cg.calcularArea(7, 2) == 7 * 2);
         assertTrue(cg.calcularPerimetro(7, 2) == 2 * (7 + 2));
